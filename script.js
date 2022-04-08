@@ -5,7 +5,7 @@ var restaurant = {
   checkAvailability: function (){
     return this.people -
       this.booked;
-  };
+  }; 
 }
 
 var elName = document.getElementById('BistroName');
