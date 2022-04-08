@@ -2,11 +2,11 @@ var restaurant = {
   name: 'Bistro',
   people: 150,
   booked: 75,
-  checkAvailability: function ()
+  checkAvailability: function (){
     return this.people -
-      this.booked
+      this.booked;
+  };
 }
-};
 
 var elName = document.getElementById('BistroName');
 elName.textContent = restaurant.name;
