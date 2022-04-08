@@ -8,7 +8,7 @@ var restaurant = {
   }
 };
 
-var elName = document.getElementById('BistroName');
+var elName = document.getElementById('BistroName')
 elName.textContent = restaurant.name;
 
 var elPeople = document.getElementById('reservation');
